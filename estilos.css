@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(182, 195, 195);
+    font-family: 'Roboto', sans-serif;
+}
+
+.formularioBusqueda {
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 30%;
+    padding: 1%;
+    font-size: 120%;
+}
+
+.submitBusqueda {
+    padding: 1%;
+    font-size: 120%;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    font-weight: bold;
+}
+
+.container-table {
+    width: 90%;
+    background-color: white;
+    margin: 5%;
+    -webkit-box-shadow: 16px 20px 25px -6px rgba(0,0,0,0.61);
+    -moz-box-shadow: 16px 20px 25px -6px rgba(0,0,0,0.61);
+    box-shadow: 16px 20px 25px -6px rgba(0,0,0,0.61);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.table-title {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: dodgerblue;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.table-item {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    padding-left: 20%;
+}
+
+.table-header {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 2%;
+    padding-left: 20%;
+    font-size: 110%;
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+h1 {
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.modificar-cliente, .borrar-cliente {
+    font-size: 80%;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.637);
+}
+
+#ingreso {
+    width: 90%;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    padding-left: 5%;
+}
+
+.actualizar-cliente {
+    font-size: 90%;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    width: 60%;
+    margin-left: 15%;
+    background-color:rgb(113, 166, 219);
+}
